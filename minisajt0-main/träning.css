@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-color: #413d3d;
+    background-size: cover;
+    color: #ffffff;
+    }
+  nav{
+    background: #302a2a;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 55px;
+    line-height: 80px;
+    padding: 15px;
+    padding-left: 50px;
+    font-weight: bold;
+    justify-content: center;
+    
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #323334;
+    transition: .5s;
+  }
+  .logga img{
+    height: 50px;
+    width: auto;
+    margin-top: 14px;
+    margin-inline: 5px;
+  }
+  .container {
+    display: flex;
+    background-color: #413d3d;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .container > div {
+    background-color: #3d3838;
+    margin: 60px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .container img{
+    height: 500px;
+    width: auto;
+  }
