@@ -11,6 +11,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  background-attachment: fixed; 
+  background-size: auto 115%;
   }
 nav{
   background: #302a2a;
